@@ -1,6 +1,6 @@
 Name:        fonts-ttf-lohit
 Version:     2.3.8
-Release:     %mkrel 1
+Release:     %mkrel 2
 Summary:     Free Indian truetype/opentype fonts
 
 Group:       System/Fonts/True type
@@ -35,14 +35,6 @@ done
 
 %clean
 rm -rf $RPM_BUILD_ROOT
-
-%post
-[ -x %{_bindir}/fc-cache ] && %{_bindir}/fc-cache 
-
-%postun
-if [ "$1" = "0" ]; then
-  [ -x %{_bindir}/fc-cache ] && %{_bindir}/fc-cache 
-fi
 
 %files 
 %defattr(-, root, root, -) 
