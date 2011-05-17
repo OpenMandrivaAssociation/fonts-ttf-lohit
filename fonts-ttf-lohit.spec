@@ -8,6 +8,7 @@ License:     GPLv2
 URL:         http://fedoraproject.org/wiki/Lohit
 Source:      http://rbhalera.fedorapeople.org/released/lohit/lohit-fonts-%{version}.tar.gz
 BuildArch:   noarch
+BuildRequires: fontconfig
 BuildRoot:   %{_tmppath}/%{name}-%{version}-%{release}-root
 Obsoletes:   fonts-ttf-gurmukhi <= 1.0
 Provides:    fonts-ttf-gurmukhi = %{version}-%{release}
