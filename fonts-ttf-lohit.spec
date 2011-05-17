@@ -1,6 +1,6 @@
 Name:        fonts-ttf-lohit
 Version:     2.3.8
-Release:     %mkrel 5
+Release:     %mkrel 6
 Summary:     Free Indian truetype/opentype fonts
 
 Group:       System/Fonts/True type
