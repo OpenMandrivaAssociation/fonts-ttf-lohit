@@ -25,17 +25,17 @@ Konkani, Nepali and Sindhi TrueType/Opentype fonts.
 echo "Nothing to do in Build."
 
 %install
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
-install -d $RPM_BUILD_ROOT/%{_datadir}/fonts/TTF/lohit
+install -d %{buildroot}/%{_datadir}/fonts/TTF/lohit
 for i in *
 do
   [ -d $i ] || continue
-  install -m 0644 $i/* $RPM_BUILD_ROOT/%{_datadir}/fonts/TTF/lohit
+  install -m 0644 $i/* %{buildroot}/%{_datadir}/fonts/TTF/lohit
 done
 
 %clean
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
 %files 
 %defattr(-, root, root, -) 
