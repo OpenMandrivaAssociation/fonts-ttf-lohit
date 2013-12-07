@@ -1,7 +1,7 @@
 Summary:	Free Indian truetype/opentype fonts
 Name:		fonts-ttf-lohit
 Version:	2.3.8
-Release:	8
+Release:	9
 Group:		System/Fonts/True type
 License:	GPLv2
 Url:		http://fedoraproject.org/wiki/Lohit
