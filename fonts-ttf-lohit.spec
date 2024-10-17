@@ -4,7 +4,7 @@ Version:	2.3.8
 Release:	18
 Group:		System/Fonts/True type
 License:	GPLv2
-Url:		http://fedoraproject.org/wiki/Lohit
+Url:		https://fedoraproject.org/wiki/Lohit
 Source0:	http://rbhalera.fedorapeople.org/released/lohit/lohit-fonts-%{version}.tar.gz
 BuildArch:	noarch
 BuildRequires:	fontconfig
